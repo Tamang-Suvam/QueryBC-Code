@@ -1,0 +1,124 @@
+.add-record-page {
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    /* background: linear-gradient(to bottom, #4b6cb7,  #182848, rgb(153, 51, 51)); */
+    background-size: cover;
+    background-blend-mode: multiply;
+    /* padding-left: 160px; */
+  }
+
+  .gradient-background1 {
+    background: linear-gradient(200deg, #16bb32,  #4f78c9, rgb(233, 229, 18));
+    height: 100vh;
+  }
+  
+  .add-record-form {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    /* margin-right: 180px; */
+    /* padding-right: 50px; */
+    /* padding-left: 50px; */
+  }
+  
+  .add-record-form1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 180px;
+    /* padding-right: 50px; */
+    /* padding-left: 50px; */
+  }
+  
+  .brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .brand img {
+    height: 50px;
+  }
+  
+  .form-control-lg {
+    border-radius: 50px;
+    height: 60px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: none;
+  }
+  
+  .form-control-lg:focus {
+    box-shadow: none;
+    border-color: #007bff;
+  }
+  
+  .btn-lg {
+    border-radius: 50px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-top: 20px;
+  }
+  
+  .btn-lg:hover {
+    background-color: #0062cc;
+    border-color: #005cbf;
+  }
+  
+  .text-muted a {
+    color: #007bff;
+  }
+  
+  .text-muted a:hover {
+    color: #005cbf;
+  }
+  
+  .inputgroup-text {
+    border-radius: 50px;
+  }
+
+  .upload-button {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    border-radius: 30px;
+    border: none;
+    background-color: #ddd;
+    color: #666;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .upload-button:hover {
+    background-color: #bbb;
+    color: #fff;
+  }
+  
+  .submit-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 80px;
+    border-radius: 0 30px 30px 0;
+    border: none;
+  }
+  
+  .submit-button:hover {
+    background-color: #007bff;
+  }
+  
+  .form-file-input {
+    visibility: hidden;
+  }
+  

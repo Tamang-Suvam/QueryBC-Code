@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: react-app
+  template:
+    metadata:
+      labels:
+        app: react-app
+    spec:
+      imagePullSecrets:
+      - name: regcred
+      containers:
+      - name: react-app
+        image: suvam10/react-app
+        ports:
+        - containerPort: 3000

@@ -1,0 +1,89 @@
+/* Styling for the page wrapper */
+.page-wrapper1 {
+  position: relative;
+}
+
+@media (min-width:761px) {
+  .hero-image1 {
+    background-image: url('../../assets/EHR-back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .hero-image1 {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-image1 {
+    height: 100vh;
+  }
+}
+
+/* Styling for the card section */
+.card1-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card1 {
+  margin: 20px;
+  max-width: 350px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card1 img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card1-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.card1-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card1-text {
+  font-size: 16px;
+  color: #888;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.cards1-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+}

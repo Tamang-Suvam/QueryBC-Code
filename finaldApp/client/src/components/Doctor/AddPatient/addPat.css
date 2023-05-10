@@ -1,0 +1,72 @@
+.registration-page {
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    /* background: linear-gradient(to bottom, #4b6cb7,  #182848, rgb(153, 51, 51)); */
+    background-size: cover;
+    background-blend-mode: multiply;
+  }
+
+  .gradient-background {
+    background: radial-gradient(circle, #ff6e7f, #bfe9ff);
+    height: 100vh;
+  }
+  
+  .registration-form {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .brand img {
+    height: 50px;
+  }
+  
+  .form-control-lg {
+    border-radius: 50px;
+    height: 60px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: none;
+  }
+  
+  .form-control-lg:focus {
+    box-shadow: none;
+    border-color: #007bff;
+  }
+  
+  .btn-lg {
+    border-radius: 50px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-top: 20px;
+  }
+  
+  .btn-lg:hover {
+    background-color: #0062cc;
+    border-color: #005cbf;
+  }
+  
+  .text-muted a {
+    color: #007bff;
+  }
+  
+  .text-muted a:hover {
+    color: #005cbf;
+  }
+  
+  .inputgroup-text {
+    border-radius: 50px;
+  }

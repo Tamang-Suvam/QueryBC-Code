@@ -1,0 +1,10 @@
+.containerStyles2  {
+    min-height: 100vh;
+    background: linear-gradient(200deg, #2264bb, #cfb69c);
+    padding: 2rem;
+}
+
+.tableStyles2 {
+    background-color: #FFF;
+    border-radius: 0.25rem;
+};

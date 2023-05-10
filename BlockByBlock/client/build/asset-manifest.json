@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a8a217a1.css",
+    "main.js": "/static/js/main.9c20ea20.js",
+    "static/media/BackgroundVideo.mp4": "/static/media/BackgroundVideo.869c9627759a20323082.mp4",
+    "static/media/EHR.jpg": "/static/media/EHR.09258f37972aaaff3dd3.jpg",
+    "static/media/ethereum.jpg": "/static/media/ethereum.506aff67dbbdaba0ffb1.jpg",
+    "static/media/mongoDB.webp": "/static/media/mongoDB.c4404c363bfb7773d673.webp",
+    "static/media/hospital.jpeg": "/static/media/hospital.c8766d9fc3967e3e8d3a.jpeg",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.a8a217a1.css",
+    "static/js/main.9c20ea20.js"
+  ]
+}

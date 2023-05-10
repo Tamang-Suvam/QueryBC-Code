@@ -1,0 +1,15 @@
+.containerStyles  {
+    min-height: 100vh;
+    background: linear-gradient(200deg, #2264bb, #cfb69c);
+    padding: 2rem;
+}
+
+.tableStyles {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+};
+
+.selectDropdown {
+    color: #ffffff;
+    background-color: aqua;
+}

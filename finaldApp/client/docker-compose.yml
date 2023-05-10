@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  dapp:
+    build:
+      context: .
+      dockerfile: Dockerfile.dapp
+    image: react-client
+    ports:
+      - "3000:3000"
