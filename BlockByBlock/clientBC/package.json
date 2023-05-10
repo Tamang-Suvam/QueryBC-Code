@@ -1,0 +1,21 @@
+{
+  "name": "blockbyblock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereumjs/tx": "^4.1.1",
+    "bloom-filters": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "ethereumjs-tx": "^2.1.2",
+    "nodemon": "^2.0.21",
+    "web3": "^1.8.2",
+    "web3-utils": "^1.8.2"
+  }
+}
